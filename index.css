@@ -1,0 +1,347 @@
+@font-face {
+    font-family: nb;
+    src: url(./font/NBInternationalProBoo.ttf);
+}
+
+@font-face {
+    font-family: rejo;
+    src: url(./font/Rejouice-Headline\ \(1\).ttf );
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nb;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 60.5%;
+
+}
+.loder{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: black;
+    z-index: 99;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    gap:10px
+
+}
+.loder h3{
+    font-size: 2vw;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.page1-contant {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(240, 248, 255, 0.192); */
+    position: relative;
+    z-index: 2;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.mouse {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 300;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    width: 100%;
+    color: white;
+    font-weight: 100;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+}
+
+.herotet{
+    /* margin-bottom: 1rem; */
+    font-size: 40rem;
+    font-weight: 200;
+    font-family: rejo;
+    /* line-height: 1px;     */
+}
+
+span {
+    font-family: rejo;
+    display: inline-block;
+
+}
+/* ************************************page 2********************** */
+.page2 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    position: relative;
+    padding: 5vw 2.8vw;
+}
+
+.page-top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid black;
+    text-transform: capitalize;
+}
+
+.page-top h3 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    width: 26.5%;
+
+}
+
+.page-top h4 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.elem {
+    overflow: hidden;
+}
+
+.elem h1 {
+    font-size: 4.2vw;
+    font-weight: 500;
+    text-align: start;
+    margin-top: 5vw;
+}
+/* ************************************************page 3***************** */
+.page3 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+}
+
+.title-top {
+    text-align: center;
+    text-transform: capitalize;
+    /* background-color: aqua; */
+
+}
+
+.title-top h4 {
+    font-weight: 500;
+    font-size: 1vw;
+    margin-bottom: 0.8vw;
+}
+
+.title-top h2 {
+    font-size: 4vw;
+    font-weight: 200;
+}
+
+.title-top h4 span {
+    background-color: black;
+    color: #ffff;
+    padding: 6px 8px;
+    border-radius: 12px;
+    margin-left: 2px;
+}
+
+.page3-element {
+    width: 100%;
+    height: 75vh;
+    /* border :1px solid black; */
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page3-element .box {
+    width: 32.5%;
+    height: 100%;
+    background-color: pink;
+    border-radius: 4px;
+    position: relative;
+}
+
+.page3-element .box video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page3-element .box img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    transition: all linear 1s;
+
+}
+
+.box:hover img {
+    opacity: 0;
+}
+/* ******************************************** pag4************** */
+.page4 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    padding: 3vw;
+    
+}
+
+.page-top4 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid black;
+    text-transform: capitalize;
+}
+
+.page-top4 h3 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    width: 26.5%;
+
+}
+.elem1 h1{
+    font-size: 4.2vw;
+    font-weight: 500;
+    text-align: start;
+    margin-top: 5vw;
+}
+
+
+
+/* **************************page5*************** */
+.page5{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+    /* background-color: black; */
+   
+    
+}
+.cursour{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background-color: black;
+position: fixed;
+color: #ffff;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.3vw;
+font-weight: 200;
+z-index: 1;
+transform: translate(-50%,-50%);
+}
+
+.page5 video{
+    height: 100%;
+    
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    left: 25%;
+
+}
+.page5 svg{
+    position: absolute;
+    height: 60%;
+    left: 35%;
+    top: 20%;
+}
+/* *************************************page6************************** */
+.page6{
+    height: 100vh;
+    width: 100%;
+    padding: 4vw ; 
+    position: relative;
+}
+.page6-top h3{
+    width: 96%;
+    margin-left: 2%;
+    font-size: 10vw;
+    font-family: rejo;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(36, 36, 36);
+}
+.slidbar{
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #49c1e2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
